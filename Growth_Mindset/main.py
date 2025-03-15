@@ -4,19 +4,36 @@ import pandas as pd
 from io import BytesIO
 
 
-st.set_page_config(page_title="Data Sweeper" , layout="wide")
+st.set_page_config(page_title="Data Sweeper" , layout="wide",page_icon="🚀")
 
-# #custom CSS
-# st.markdown(
-#     """
-#     <style>
-#     .stApp{
-#     background-color : black;
-#     color: white
-#     }
-#     """,
-#     unsafe_allow_html=True
-# )
+#custom CSS
+st.markdown(
+    """
+    <style>
+    .stButton>button {
+        background-color: #66BB6A;  
+        color: white;  
+    }
+    .stButton>button:hover {
+        background-color: #388E3C;  
+        color: white;
+    }
+    .stDownloadButton>button {
+        background-color: #66BB6A;  
+        color: white; 
+    }
+    .stDownloadButton>button:hover {
+        background-color: #388E3C;  
+        color: white;
+    }
+    .stApp{
+        background-color :  #E8F5E9;
+        color: #333333;
+    
+    }
+    """,
+    unsafe_allow_html=True
+)
 
 # Title and Description
 st.title("📀 DataSweeper")
