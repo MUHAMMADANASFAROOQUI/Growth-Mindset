@@ -37,7 +37,7 @@ st.markdown(
 
 # Title and Description
 st.title("📀 DataSweeper")
-st.write("Upload CSV or Excel,clean or visualize data and convert formats!")
+st.markdown("##### Upload CSV or Excel,clean or visualize data and convert formats!")
 
 
 # File Uploader
